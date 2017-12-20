@@ -15,12 +15,15 @@ div.footerDesc{
     border-top-color:#e7e7e7;
     padding-top:30px;
     margin:0px 20px;
+    text-align: center;
+    
 }
 
 div.footerDesc .descCol{
-    width:20%;
-    float:left;
-    padding-left:60px;
+    vertical-align: text-top;
+    width:18%;
+    display:inline-block;
+    
 }
 
 div.footerDesc .descCol span.descColTitle{
