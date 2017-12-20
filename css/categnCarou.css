@@ -1,0 +1,57 @@
+div.head .glyphicon-th-list{
+    margin-left:10px;
+}
+
+div.categnCarou{
+    width:100%;
+    position:relative;
+}
+
+div.carousel-inner div.item img{
+    width:100%;
+}
+
+div.categnCarou{
+    background-color: #DD2727;
+} 
+
+div.categnCarou div.head{
+    width:200px;
+    background-color: #C60A0A;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+div.categnCarou div.rightMenu{
+    display: inline-block;
+}
+
+div.categnCarou div.rightMenu a{
+    font-size:16px;
+    color:white;
+    text-decoration:none;
+}
+
+div.categnCarou div.rightMenu span{
+    margin:0px 20px;
+}
+
+div.categnCarou div.rightMenu img{
+    height:30px;
+}
+
+div.myCarousel{
+    height: 510px;
+    width: 1024px;
+    margin:0px auto;
+}
+
+img.carouselImg{
+    height:510px !important;
+}
+
