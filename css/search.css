@@ -33,10 +33,14 @@ div.searchBelow a{
     padding: 0px 20px 0px 20px;
     font-size: 14px;
 }
+div.search{
+    position: relative;
+}
 img.logo{
     position: absolute;
     left:0px;
-    top:30px;
+    top:-50px;
+    z-index: -1;
 }
 
 body{

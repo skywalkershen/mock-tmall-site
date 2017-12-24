@@ -27,3 +27,8 @@ nav.top a:hover{
     color:#C40000;
     text-decoration: none;
 }
+
+div.myContainer{
+    max-width: 980px;
+    margin: 0 auto;
+}

@@ -9,7 +9,12 @@ function hidecategDetail(cid){
     $("div.categDetail[cid="+cid+"]").hide();
 }
 
+
 $(function(){
+    $("div.headbar div.head").mouseenter(function(){
+        $("div.categMenu").toggle();
+    })
+
     $("div.eachCategory").mouseenter(function(){
         var cid = $(this).attr("cid");
         showcategDetail(cid);
@@ -26,4 +31,5 @@ $(function(){
         var cid = $(this).attr("cid");
         hidecategDetail(cid);
     });
+    
 });
