@@ -8,7 +8,7 @@ $(function(){
         var width = $(this).css("width");
         var catearLeft = parseInt(left) + parseInt(width) / 2;
         $("img.catear").css("left", catearLeft);
-        $("img.catear").css("top", top + 26);
+        $("img.catear").css("top", top +140);
         $("img.catear").fadeIn(500);
         console.log("catear at left: " + catearLeft +" top: " + top);
     })
