@@ -12,7 +12,10 @@ function hidecategDetail(cid){
 
 $(function(){
     $("div.headbar div.head").mouseenter(function(){
-        $("div.categMenu").toggle();
+        $("div.categMenu").show();
+    })
+    $("div.categMenu").mouseleave(function(){
+        $("div.categMenu").hide();
     })
 
     $("div.eachCategory").mouseenter(function(){
